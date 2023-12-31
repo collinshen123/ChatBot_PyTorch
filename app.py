@@ -62,6 +62,7 @@ class ChatApplication:
         msg = self.msg_entry.get()
         self._insert_message(msg, "You")
     def _insert_message(self, msg, sender):
+        # sourcery skip: extract-duplicate-method
         if not msg:
             return
 
