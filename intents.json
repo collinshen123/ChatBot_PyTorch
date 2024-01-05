@@ -17,6 +17,7 @@
           "Hi there, how can I help?"
         ]
       },
+
       {
         "tag": "goodbye",
         "patterns": ["Bye", "See you later", "Goodbye"],
@@ -26,48 +27,86 @@
           "Bye! Come back again soon."
         ]
       },
+
       {
         "tag": "thanks",
         "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "No Problem!"]
       },
+
       {
         "tag": "items",
         "patterns": [
+          "What do you have?",
           "Which items do you have?",
           "What kinds of items are there?",
           "What do you sell?"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "We sell sneakers",
+          "We have shoes",
+          "We have the latest hypebeast shoes",
+          "All types of shoes"
         ]
       },
+
+      {
+        "tag": "brands",
+        "patterns": [
+          "What brands of shoes do you have?",
+          "Do you have Nike shoes?",
+          "Are there any Adidas shoes?",
+          "Do you have Jordans?"
+        ],
+        "responses": [
+          "We have the most popular brands like Nike, Adidas, and Jordans",
+          "We also have hypebeast brands like Off-White, Supreme, and Yeezy",
+          "We have the latest hypebeast shoes"
+        ]
+      },
+
+      {
+        "tag": "price",
+        "patterns": [
+          "How much is it?",
+          "What is the price?"
+        ],
+        "responses": [
+          "Depends on the shoe style and popularity",
+          "Our shoes range from $100 to $500",
+          "We also have high end sneakers that cost $1000+"
+        ]
+      },
+
       {
         "tag": "payments",
         "patterns": [
           "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?"
+          "Can I pay cash?",
+          "How do I pay?",
+          "Do you take Venmo or zelle or Apple Pay?"
         ],
         "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal"
+          "We take cash and credit card",
+          "We accept VISA, Mastercard but not American Express",
+          "Venmo, Zelle, Cashapp, and Apple Pay also works"
         ]
       },
+
       {
         "tag": "delivery",
         "patterns": [
+          "How can I get my shoes?",
           "How long does delivery take?",
-          "How long does shipping take?",
           "When do I get my delivery?"
         ],
         "responses": [
+          "We can deliver it to you for free",
           "Delivery takes 2-4 days",
           "Shipping takes 2-4 days"
         ]
       },
+
       {
         "tag": "funny",
         "patterns": [
@@ -76,8 +115,8 @@
           "Do you know a joke?"
         ],
         "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
+          "What type of shoes does a bully hate? A goody two shoes.",
+          "What sort of shoes does bread wear? Loafers"
         ]
       }
     ]
