@@ -69,7 +69,8 @@
         "tag": "price",
         "patterns": [
           "How much is it?",
-          "What is the price?"
+          "What is the price?",
+          "How much do they cost?"
         ],
         "responses": [
           "Depends on the shoe style and popularity",
